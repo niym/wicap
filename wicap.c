@@ -12,6 +12,19 @@
 
 static int fcshdr = 0;
 
+#define MAC2STR(a) (a)[0], (a)[1], (a)[2], (a)[3], (a)[4], (a)[5]
+#define MACSTR "%02x:%02x:%02x:%02x:%02x:%02x"
+
+struct ieee80211_hdr {
+	unsigned short frame_control;
+	unsigned short duration_id;
+	unsigned char addr1[6];
+	unsigned char addr2[6];
+	unsigned char addr3[6];
+	unsigned short seq_ctrl;
+	unsigned short addr4[6];
+} __attribute__ ((packed));
+
 static const struct radiotap_align_size align_size_000000_00[] = {
 	[0] = { .align = 1, .size = 4, },
 	[52] = { .align = 1, .size = 4, },
@@ -122,6 +135,8 @@ int save_packet(const pcap_t *pcap_handle, const struct pcap_pkthdr *header,
     return 0;
 }
 
+
+
 void got_packet(u_char *args, const struct pcap_pkthdr *header, const u_char *packet)
 {
     int err;
@@ -139,6 +154,9 @@ void got_packet(u_char *args, const struct pcap_pkthdr *header, const u_char *pa
 		return;
 	}
 
+    /**
+     * Parsing captured data packet and print radiotap information.
+     */
     while (!(err = ieee80211_radiotap_iterator_next(&iter))) {
 		if (iter.this_arg_index == IEEE80211_RADIOTAP_VENDOR_NAMESPACE) {
 			printf("\tvendor NS (%.2x-%.2x-%.2x:%d, %d bytes)\n",
@@ -164,6 +182,11 @@ void got_packet(u_char *args, const struct pcap_pkthdr *header, const u_char *pa
 		return;
 	}
 
+    struct ieee80211_hdr *hdr =(struct ieee80211_hdr *)(packet + iter._max_length);
+    printf("\tsource address: "MACSTR"\n", MAC2STR(hdr->addr2));
+    printf("\tdestination address: "MACSTR"\n", MAC2STR(hdr->addr1));
+    printf("\tbssid: "MACSTR"\n", MAC2STR(hdr->addr3));
+
 	return;
 
 }
@@ -175,8 +198,8 @@ int main(int argc, char *argv[])
     bpf_u_int32 netp;
     char errbuf[PCAP_ERRBUF_SIZE];	/* Error string */
     struct bpf_program fp;		/* The compiled filter */
-    char filter_exp[] = "type mgt";	/* The filter expression */
-    int num_packets = 1;			/* number of packets to capture */
+    char filter_exp[] = "type mgt subtype assoc-req";	/* The filter expression */
+    int num_packets = 2;			/* number of packets to capture */
 
     /* check for capture device name on command-line */
 	if (argc == 2) {

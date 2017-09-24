@@ -1,0 +1,189 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	Makefile	/^CC ?= "gcc"$/;"	m
+CFLAGS	Makefile	/^CFLAGS ?= -MMD -O2 -g$/;"	m
+IEEE80211_CHAN_2GHZ	radiotap.h	/^	IEEE80211_CHAN_2GHZ = 0x0080,$/;"	e	enum:ieee80211_radiotap_channel_flags
+IEEE80211_CHAN_5GHZ	radiotap.h	/^	IEEE80211_CHAN_5GHZ = 0x0100,$/;"	e	enum:ieee80211_radiotap_channel_flags
+IEEE80211_CHAN_CCK	radiotap.h	/^	IEEE80211_CHAN_CCK = 0x0020,$/;"	e	enum:ieee80211_radiotap_channel_flags
+IEEE80211_CHAN_DYN	radiotap.h	/^	IEEE80211_CHAN_DYN = 0x0400,$/;"	e	enum:ieee80211_radiotap_channel_flags
+IEEE80211_CHAN_HALF	radiotap.h	/^	IEEE80211_CHAN_HALF = 0x4000,$/;"	e	enum:ieee80211_radiotap_channel_flags
+IEEE80211_CHAN_OFDM	radiotap.h	/^	IEEE80211_CHAN_OFDM = 0x0040,$/;"	e	enum:ieee80211_radiotap_channel_flags
+IEEE80211_CHAN_QUARTER	radiotap.h	/^	IEEE80211_CHAN_QUARTER = 0x8000,$/;"	e	enum:ieee80211_radiotap_channel_flags
+IEEE80211_RADIOTAP_AMPDU_DELIM_CRC_ERR	radiotap.h	/^	IEEE80211_RADIOTAP_AMPDU_DELIM_CRC_ERR = 0x0010,$/;"	e	enum:ieee80211_radiotap_ampdu_flags
+IEEE80211_RADIOTAP_AMPDU_DELIM_CRC_KNOWN	radiotap.h	/^	IEEE80211_RADIOTAP_AMPDU_DELIM_CRC_KNOWN = 0x0020,$/;"	e	enum:ieee80211_radiotap_ampdu_flags
+IEEE80211_RADIOTAP_AMPDU_IS_LAST	radiotap.h	/^	IEEE80211_RADIOTAP_AMPDU_IS_LAST = 0x0008,$/;"	e	enum:ieee80211_radiotap_ampdu_flags
+IEEE80211_RADIOTAP_AMPDU_IS_ZEROLEN	radiotap.h	/^	IEEE80211_RADIOTAP_AMPDU_IS_ZEROLEN = 0x0002,$/;"	e	enum:ieee80211_radiotap_ampdu_flags
+IEEE80211_RADIOTAP_AMPDU_LAST_KNOWN	radiotap.h	/^	IEEE80211_RADIOTAP_AMPDU_LAST_KNOWN = 0x0004,$/;"	e	enum:ieee80211_radiotap_ampdu_flags
+IEEE80211_RADIOTAP_AMPDU_REPORT_ZEROLEN	radiotap.h	/^	IEEE80211_RADIOTAP_AMPDU_REPORT_ZEROLEN = 0x0001,$/;"	e	enum:ieee80211_radiotap_ampdu_flags
+IEEE80211_RADIOTAP_AMPDU_STATUS	radiotap.h	/^	IEEE80211_RADIOTAP_AMPDU_STATUS = 20,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_ANTENNA	radiotap.h	/^	IEEE80211_RADIOTAP_ANTENNA = 11,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_CHANNEL	radiotap.h	/^	IEEE80211_RADIOTAP_CHANNEL = 3,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_CODING_LDPC_USER0	radiotap.h	/^	IEEE80211_RADIOTAP_CODING_LDPC_USER0 = 0x01,$/;"	e	enum:ieee80211_radiotap_vht_coding
+IEEE80211_RADIOTAP_CODING_LDPC_USER1	radiotap.h	/^	IEEE80211_RADIOTAP_CODING_LDPC_USER1 = 0x02,$/;"	e	enum:ieee80211_radiotap_vht_coding
+IEEE80211_RADIOTAP_CODING_LDPC_USER2	radiotap.h	/^	IEEE80211_RADIOTAP_CODING_LDPC_USER2 = 0x04,$/;"	e	enum:ieee80211_radiotap_vht_coding
+IEEE80211_RADIOTAP_CODING_LDPC_USER3	radiotap.h	/^	IEEE80211_RADIOTAP_CODING_LDPC_USER3 = 0x08,$/;"	e	enum:ieee80211_radiotap_vht_coding
+IEEE80211_RADIOTAP_DATA_RETRIES	radiotap.h	/^	IEEE80211_RADIOTAP_DATA_RETRIES = 17,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_DBM_ANTNOISE	radiotap.h	/^	IEEE80211_RADIOTAP_DBM_ANTNOISE = 6,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_DBM_ANTSIGNAL	radiotap.h	/^	IEEE80211_RADIOTAP_DBM_ANTSIGNAL = 5,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_DBM_TX_POWER	radiotap.h	/^	IEEE80211_RADIOTAP_DBM_TX_POWER = 10,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_DB_ANTNOISE	radiotap.h	/^	IEEE80211_RADIOTAP_DB_ANTNOISE = 13,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_DB_ANTSIGNAL	radiotap.h	/^	IEEE80211_RADIOTAP_DB_ANTSIGNAL = 12,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_DB_TX_ATTENUATION	radiotap.h	/^	IEEE80211_RADIOTAP_DB_TX_ATTENUATION = 9,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_EXT	radiotap.h	/^	IEEE80211_RADIOTAP_EXT = 31$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_FHSS	radiotap.h	/^	IEEE80211_RADIOTAP_FHSS = 4,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_FLAGS	radiotap.h	/^	IEEE80211_RADIOTAP_FLAGS = 1,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_F_BADFCS	radiotap.h	/^	IEEE80211_RADIOTAP_F_BADFCS = 0x40,$/;"	e	enum:ieee80211_radiotap_flags
+IEEE80211_RADIOTAP_F_CFP	radiotap.h	/^	IEEE80211_RADIOTAP_F_CFP = 0x01,$/;"	e	enum:ieee80211_radiotap_flags
+IEEE80211_RADIOTAP_F_DATAPAD	radiotap.h	/^	IEEE80211_RADIOTAP_F_DATAPAD = 0x20,$/;"	e	enum:ieee80211_radiotap_flags
+IEEE80211_RADIOTAP_F_FCS	radiotap.h	/^	IEEE80211_RADIOTAP_F_FCS = 0x10,$/;"	e	enum:ieee80211_radiotap_flags
+IEEE80211_RADIOTAP_F_FRAG	radiotap.h	/^	IEEE80211_RADIOTAP_F_FRAG = 0x08,$/;"	e	enum:ieee80211_radiotap_flags
+IEEE80211_RADIOTAP_F_RX_BADPLCP	radiotap.h	/^	IEEE80211_RADIOTAP_F_RX_BADPLCP = 0x0002,$/;"	e	enum:ieee80211_radiotap_rx_flags
+IEEE80211_RADIOTAP_F_SHORTPRE	radiotap.h	/^	IEEE80211_RADIOTAP_F_SHORTPRE = 0x02,$/;"	e	enum:ieee80211_radiotap_flags
+IEEE80211_RADIOTAP_F_TX_CTS	radiotap.h	/^	IEEE80211_RADIOTAP_F_TX_CTS = 0x0002,$/;"	e	enum:ieee80211_radiotap_tx_flags
+IEEE80211_RADIOTAP_F_TX_FAIL	radiotap.h	/^	IEEE80211_RADIOTAP_F_TX_FAIL = 0x0001,$/;"	e	enum:ieee80211_radiotap_tx_flags
+IEEE80211_RADIOTAP_F_TX_NOACK	radiotap.h	/^	IEEE80211_RADIOTAP_F_TX_NOACK = 0x0008,$/;"	e	enum:ieee80211_radiotap_tx_flags
+IEEE80211_RADIOTAP_F_TX_RTS	radiotap.h	/^	IEEE80211_RADIOTAP_F_TX_RTS = 0x0004,$/;"	e	enum:ieee80211_radiotap_tx_flags
+IEEE80211_RADIOTAP_F_WEP	radiotap.h	/^	IEEE80211_RADIOTAP_F_WEP = 0x04,$/;"	e	enum:ieee80211_radiotap_flags
+IEEE80211_RADIOTAP_LOCK_QUALITY	radiotap.h	/^	IEEE80211_RADIOTAP_LOCK_QUALITY = 7,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_MCS	radiotap.h	/^	IEEE80211_RADIOTAP_MCS = 19,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_MCS_BW_20	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_BW_20 = 0,$/;"	e	enum:ieee80211_radiotap_mcs_flags
+IEEE80211_RADIOTAP_MCS_BW_20L	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_BW_20L = 2,$/;"	e	enum:ieee80211_radiotap_mcs_flags
+IEEE80211_RADIOTAP_MCS_BW_20U	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_BW_20U = 3,$/;"	e	enum:ieee80211_radiotap_mcs_flags
+IEEE80211_RADIOTAP_MCS_BW_40	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_BW_40 = 1,$/;"	e	enum:ieee80211_radiotap_mcs_flags
+IEEE80211_RADIOTAP_MCS_BW_MASK	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_BW_MASK = 0x03,$/;"	e	enum:ieee80211_radiotap_mcs_flags
+IEEE80211_RADIOTAP_MCS_FEC_LDPC	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_FEC_LDPC = 0x10,$/;"	e	enum:ieee80211_radiotap_mcs_flags
+IEEE80211_RADIOTAP_MCS_FMT_GF	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_FMT_GF = 0x08,$/;"	e	enum:ieee80211_radiotap_mcs_flags
+IEEE80211_RADIOTAP_MCS_HAVE_BW	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_HAVE_BW = 0x01,$/;"	e	enum:ieee80211_radiotap_mcs_have
+IEEE80211_RADIOTAP_MCS_HAVE_FEC	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_HAVE_FEC = 0x10,$/;"	e	enum:ieee80211_radiotap_mcs_have
+IEEE80211_RADIOTAP_MCS_HAVE_FMT	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_HAVE_FMT = 0x08,$/;"	e	enum:ieee80211_radiotap_mcs_have
+IEEE80211_RADIOTAP_MCS_HAVE_GI	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_HAVE_GI = 0x04,$/;"	e	enum:ieee80211_radiotap_mcs_have
+IEEE80211_RADIOTAP_MCS_HAVE_MCS	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_HAVE_MCS = 0x02,$/;"	e	enum:ieee80211_radiotap_mcs_have
+IEEE80211_RADIOTAP_MCS_HAVE_STBC	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_HAVE_STBC = 0x20,$/;"	e	enum:ieee80211_radiotap_mcs_have
+IEEE80211_RADIOTAP_MCS_SGI	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_SGI = 0x04,$/;"	e	enum:ieee80211_radiotap_mcs_flags
+IEEE80211_RADIOTAP_MCS_STBC_1	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_STBC_1 = 1,$/;"	e	enum:ieee80211_radiotap_mcs_flags
+IEEE80211_RADIOTAP_MCS_STBC_2	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_STBC_2 = 2,$/;"	e	enum:ieee80211_radiotap_mcs_flags
+IEEE80211_RADIOTAP_MCS_STBC_3	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_STBC_3 = 3,$/;"	e	enum:ieee80211_radiotap_mcs_flags
+IEEE80211_RADIOTAP_MCS_STBC_MASK	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_STBC_MASK = 0x60,$/;"	e	enum:ieee80211_radiotap_mcs_flags
+IEEE80211_RADIOTAP_MCS_STBC_SHIFT	radiotap.h	/^	IEEE80211_RADIOTAP_MCS_STBC_SHIFT = 5,$/;"	e	enum:ieee80211_radiotap_mcs_flags
+IEEE80211_RADIOTAP_RADIOTAP_NAMESPACE	radiotap.h	/^	IEEE80211_RADIOTAP_RADIOTAP_NAMESPACE = 29,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_RATE	radiotap.h	/^	IEEE80211_RADIOTAP_RATE = 2,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_RTS_RETRIES	radiotap.h	/^	IEEE80211_RADIOTAP_RTS_RETRIES = 16,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_RX_FLAGS	radiotap.h	/^	IEEE80211_RADIOTAP_RX_FLAGS = 14,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_TIMESTAMP	radiotap.h	/^	IEEE80211_RADIOTAP_TIMESTAMP = 22,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_TIMESTAMP_FLAG_32BIT	radiotap.h	/^	IEEE80211_RADIOTAP_TIMESTAMP_FLAG_32BIT = 0x01,$/;"	e	enum:ieee80211_radiotap_timestamp_flags
+IEEE80211_RADIOTAP_TIMESTAMP_FLAG_64BIT	radiotap.h	/^	IEEE80211_RADIOTAP_TIMESTAMP_FLAG_64BIT = 0x00,$/;"	e	enum:ieee80211_radiotap_timestamp_flags
+IEEE80211_RADIOTAP_TIMESTAMP_FLAG_ACCURACY	radiotap.h	/^	IEEE80211_RADIOTAP_TIMESTAMP_FLAG_ACCURACY = 0x02,$/;"	e	enum:ieee80211_radiotap_timestamp_flags
+IEEE80211_RADIOTAP_TIMESTAMP_SPOS_BEGIN_MDPU	radiotap.h	/^	IEEE80211_RADIOTAP_TIMESTAMP_SPOS_BEGIN_MDPU = 0x0000,$/;"	e	enum:ieee80211_radiotap_timestamp_unit_spos
+IEEE80211_RADIOTAP_TIMESTAMP_SPOS_EO_MPDU	radiotap.h	/^	IEEE80211_RADIOTAP_TIMESTAMP_SPOS_EO_MPDU = 0x0030,$/;"	e	enum:ieee80211_radiotap_timestamp_unit_spos
+IEEE80211_RADIOTAP_TIMESTAMP_SPOS_EO_PPDU	radiotap.h	/^	IEEE80211_RADIOTAP_TIMESTAMP_SPOS_EO_PPDU = 0x0020,$/;"	e	enum:ieee80211_radiotap_timestamp_unit_spos
+IEEE80211_RADIOTAP_TIMESTAMP_SPOS_MASK	radiotap.h	/^	IEEE80211_RADIOTAP_TIMESTAMP_SPOS_MASK = 0x00F0,$/;"	e	enum:ieee80211_radiotap_timestamp_unit_spos
+IEEE80211_RADIOTAP_TIMESTAMP_SPOS_PLCP_SIG_ACQ	radiotap.h	/^	IEEE80211_RADIOTAP_TIMESTAMP_SPOS_PLCP_SIG_ACQ = 0x0010,$/;"	e	enum:ieee80211_radiotap_timestamp_unit_spos
+IEEE80211_RADIOTAP_TIMESTAMP_SPOS_UNKNOWN	radiotap.h	/^	IEEE80211_RADIOTAP_TIMESTAMP_SPOS_UNKNOWN = 0x00F0,$/;"	e	enum:ieee80211_radiotap_timestamp_unit_spos
+IEEE80211_RADIOTAP_TIMESTAMP_UNIT_MASK	radiotap.h	/^	IEEE80211_RADIOTAP_TIMESTAMP_UNIT_MASK = 0x000F,$/;"	e	enum:ieee80211_radiotap_timestamp_unit_spos
+IEEE80211_RADIOTAP_TIMESTAMP_UNIT_MS	radiotap.h	/^	IEEE80211_RADIOTAP_TIMESTAMP_UNIT_MS = 0x0000,$/;"	e	enum:ieee80211_radiotap_timestamp_unit_spos
+IEEE80211_RADIOTAP_TIMESTAMP_UNIT_NS	radiotap.h	/^	IEEE80211_RADIOTAP_TIMESTAMP_UNIT_NS = 0x0003,$/;"	e	enum:ieee80211_radiotap_timestamp_unit_spos
+IEEE80211_RADIOTAP_TIMESTAMP_UNIT_US	radiotap.h	/^	IEEE80211_RADIOTAP_TIMESTAMP_UNIT_US = 0x0001,$/;"	e	enum:ieee80211_radiotap_timestamp_unit_spos
+IEEE80211_RADIOTAP_TSFT	radiotap.h	/^	IEEE80211_RADIOTAP_TSFT = 0,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_TX_ATTENUATION	radiotap.h	/^	IEEE80211_RADIOTAP_TX_ATTENUATION = 8,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_TX_FLAGS	radiotap.h	/^	IEEE80211_RADIOTAP_TX_FLAGS = 15,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_VENDOR_NAMESPACE	radiotap.h	/^	IEEE80211_RADIOTAP_VENDOR_NAMESPACE = 30,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_VHT	radiotap.h	/^	IEEE80211_RADIOTAP_VHT = 21,$/;"	e	enum:ieee80211_radiotap_presence
+IEEE80211_RADIOTAP_VHT_FLAG_BEAMFORMED	radiotap.h	/^	IEEE80211_RADIOTAP_VHT_FLAG_BEAMFORMED = 0x20,$/;"	e	enum:ieee80211_radiotap_vht_flags
+IEEE80211_RADIOTAP_VHT_FLAG_LDPC_EXTRA_OFDM_SYM	radiotap.h	/^	IEEE80211_RADIOTAP_VHT_FLAG_LDPC_EXTRA_OFDM_SYM = 0x10,$/;"	e	enum:ieee80211_radiotap_vht_flags
+IEEE80211_RADIOTAP_VHT_FLAG_SGI	radiotap.h	/^	IEEE80211_RADIOTAP_VHT_FLAG_SGI = 0x04,$/;"	e	enum:ieee80211_radiotap_vht_flags
+IEEE80211_RADIOTAP_VHT_FLAG_SGI_NSYM_M10_9	radiotap.h	/^	IEEE80211_RADIOTAP_VHT_FLAG_SGI_NSYM_M10_9 = 0x08,$/;"	e	enum:ieee80211_radiotap_vht_flags
+IEEE80211_RADIOTAP_VHT_FLAG_STBC	radiotap.h	/^	IEEE80211_RADIOTAP_VHT_FLAG_STBC = 0x01,$/;"	e	enum:ieee80211_radiotap_vht_flags
+IEEE80211_RADIOTAP_VHT_FLAG_TXOP_PS_NA	radiotap.h	/^	IEEE80211_RADIOTAP_VHT_FLAG_TXOP_PS_NA = 0x02,$/;"	e	enum:ieee80211_radiotap_vht_flags
+IEEE80211_RADIOTAP_VHT_KNOWN_BANDWIDTH	radiotap.h	/^	IEEE80211_RADIOTAP_VHT_KNOWN_BANDWIDTH = 0x0040,$/;"	e	enum:ieee80211_radiotap_vht_known
+IEEE80211_RADIOTAP_VHT_KNOWN_BEAMFORMED	radiotap.h	/^	IEEE80211_RADIOTAP_VHT_KNOWN_BEAMFORMED = 0x0020,$/;"	e	enum:ieee80211_radiotap_vht_known
+IEEE80211_RADIOTAP_VHT_KNOWN_GI	radiotap.h	/^	IEEE80211_RADIOTAP_VHT_KNOWN_GI = 0x0004,$/;"	e	enum:ieee80211_radiotap_vht_known
+IEEE80211_RADIOTAP_VHT_KNOWN_GROUP_ID	radiotap.h	/^	IEEE80211_RADIOTAP_VHT_KNOWN_GROUP_ID = 0x0080,$/;"	e	enum:ieee80211_radiotap_vht_known
+IEEE80211_RADIOTAP_VHT_KNOWN_LDPC_EXTRA_OFDM_SYM	radiotap.h	/^	IEEE80211_RADIOTAP_VHT_KNOWN_LDPC_EXTRA_OFDM_SYM = 0x0010,$/;"	e	enum:ieee80211_radiotap_vht_known
+IEEE80211_RADIOTAP_VHT_KNOWN_PARTIAL_AID	radiotap.h	/^	IEEE80211_RADIOTAP_VHT_KNOWN_PARTIAL_AID = 0x0100,$/;"	e	enum:ieee80211_radiotap_vht_known
+IEEE80211_RADIOTAP_VHT_KNOWN_SGI_NSYM_DIS	radiotap.h	/^	IEEE80211_RADIOTAP_VHT_KNOWN_SGI_NSYM_DIS = 0x0008,$/;"	e	enum:ieee80211_radiotap_vht_known
+IEEE80211_RADIOTAP_VHT_KNOWN_STBC	radiotap.h	/^	IEEE80211_RADIOTAP_VHT_KNOWN_STBC = 0x0001,$/;"	e	enum:ieee80211_radiotap_vht_known
+IEEE80211_RADIOTAP_VHT_KNOWN_TXOP_PS_NA	radiotap.h	/^	IEEE80211_RADIOTAP_VHT_KNOWN_TXOP_PS_NA = 0x0002,$/;"	e	enum:ieee80211_radiotap_vht_known
+INSTALL	Makefile	/^INSTALL ?= install$/;"	m
+MANDIR	Makefile	/^MANDIR ?= $(PREFIX)\/share\/man$/;"	m
+MKDIR	Makefile	/^MKDIR ?= mkdir -p$/;"	m
+PKG_CONFIG	Makefile	/^PKG_CONFIG ?= pkg-config$/;"	m
+PKTHDR_RADIOTAP_VERSION	radiotap.h	45;"	d
+PREFIX	Makefile	/^PREFIX ?= \/usr$/;"	m
+SBINDIR	Makefile	/^SBINDIR ?= $(PREFIX)\/sbin$/;"	m
+__RADIOTAP_H	radiotap.h	17;"	d
+__RADIOTAP_ITER_H	radiotap_iter.h	2;"	d
+_arg	radiotap_iter.h	/^	unsigned char *_arg, *_next_ns_data;$/;"	m	struct:ieee80211_radiotap_iterator
+_arg_index	radiotap_iter.h	/^	int _arg_index;$/;"	m	struct:ieee80211_radiotap_iterator
+_bitmap_shifter	radiotap_iter.h	/^	uint32_t _bitmap_shifter;$/;"	m	struct:ieee80211_radiotap_iterator
+_max_length	radiotap_iter.h	/^	int _max_length;$/;"	m	struct:ieee80211_radiotap_iterator
+_next_bitmap	radiotap_iter.h	/^	uint32_t *_next_bitmap;$/;"	m	struct:ieee80211_radiotap_iterator
+_next_ns_data	radiotap_iter.h	/^	unsigned char *_arg, *_next_ns_data;$/;"	m	struct:ieee80211_radiotap_iterator
+_reset_on_ext	radiotap_iter.h	/^	int _reset_on_ext;$/;"	m	struct:ieee80211_radiotap_iterator
+_rtheader	radiotap_iter.h	/^	struct ieee80211_radiotap_header *_rtheader;$/;"	m	struct:ieee80211_radiotap_iterator	typeref:struct:ieee80211_radiotap_iterator::ieee80211_radiotap_header
+_vns	radiotap_iter.h	/^	const struct ieee80211_radiotap_vendor_namespaces *_vns;$/;"	m	struct:ieee80211_radiotap_iterator	typeref:struct:ieee80211_radiotap_iterator::ieee80211_radiotap_vendor_namespaces
+align	radiotap_iter.h	/^	uint8_t align:4, size:4;$/;"	m	struct:radiotap_align_size
+align	radiotap_iter.h	/^	uint8_t align:4, size:4;$/;"	m	struct:radiotap_override
+align_size	radiotap_iter.h	/^	const struct radiotap_align_size *align_size;$/;"	m	struct:ieee80211_radiotap_namespace	typeref:struct:ieee80211_radiotap_namespace::radiotap_align_size
+align_size_000000_00	wicap.c	/^static const struct radiotap_align_size align_size_000000_00[] = {$/;"	v	typeref:struct:radiotap_align_size	file:
+current_namespace	radiotap_iter.h	/^	const struct ieee80211_radiotap_namespace *current_namespace;$/;"	m	struct:ieee80211_radiotap_iterator	typeref:struct:ieee80211_radiotap_iterator::ieee80211_radiotap_namespace
+fcshdr	wicap.c	/^static int fcshdr = 0;$/;"	v	file:
+field	radiotap_iter.h	/^	uint8_t field;$/;"	m	struct:radiotap_override
+find_ns	radiotap.c	/^static void find_ns(struct ieee80211_radiotap_iterator *iterator,$/;"	f	file:
+find_override	radiotap.c	/^static int find_override(struct ieee80211_radiotap_iterator *iterator,$/;"	f	file:
+get_unaligned	platform.h	7;"	d
+get_unaligned_le16	platform.h	15;"	d
+get_unaligned_le32	platform.h	16;"	d
+got_packet	wicap.c	/^void got_packet(u_char *args, const struct pcap_pkthdr *header, const u_char *packet)$/;"	f
+ieee80211_radiotap_ampdu_flags	radiotap.h	/^enum ieee80211_radiotap_ampdu_flags {$/;"	g
+ieee80211_radiotap_channel_flags	radiotap.h	/^enum ieee80211_radiotap_channel_flags {$/;"	g
+ieee80211_radiotap_flags	radiotap.h	/^enum ieee80211_radiotap_flags {$/;"	g
+ieee80211_radiotap_header	radiotap.h	/^struct ieee80211_radiotap_header {$/;"	s
+ieee80211_radiotap_iterator	radiotap_iter.h	/^struct ieee80211_radiotap_iterator {$/;"	s
+ieee80211_radiotap_iterator_init	radiotap.c	/^int ieee80211_radiotap_iterator_init($/;"	f
+ieee80211_radiotap_iterator_next	radiotap.c	/^int ieee80211_radiotap_iterator_next($/;"	f
+ieee80211_radiotap_mcs_flags	radiotap.h	/^enum ieee80211_radiotap_mcs_flags {$/;"	g
+ieee80211_radiotap_mcs_have	radiotap.h	/^enum ieee80211_radiotap_mcs_have {$/;"	g
+ieee80211_radiotap_namespace	radiotap_iter.h	/^struct ieee80211_radiotap_namespace {$/;"	s
+ieee80211_radiotap_presence	radiotap.h	/^enum ieee80211_radiotap_presence {$/;"	g
+ieee80211_radiotap_rx_flags	radiotap.h	/^enum ieee80211_radiotap_rx_flags {$/;"	g
+ieee80211_radiotap_timestamp_flags	radiotap.h	/^enum ieee80211_radiotap_timestamp_flags {$/;"	g
+ieee80211_radiotap_timestamp_unit_spos	radiotap.h	/^enum ieee80211_radiotap_timestamp_unit_spos {$/;"	g
+ieee80211_radiotap_tx_flags	radiotap.h	/^enum ieee80211_radiotap_tx_flags {$/;"	g
+ieee80211_radiotap_vendor_namespaces	radiotap_iter.h	/^struct ieee80211_radiotap_vendor_namespaces {$/;"	s
+ieee80211_radiotap_vht_coding	radiotap.h	/^enum ieee80211_radiotap_vht_coding {$/;"	g
+ieee80211_radiotap_vht_flags	radiotap.h	/^enum ieee80211_radiotap_vht_flags {$/;"	g
+ieee80211_radiotap_vht_known	radiotap.h	/^enum ieee80211_radiotap_vht_known {$/;"	g
+is_radiotap_ns	radiotap_iter.h	/^	int is_radiotap_ns;$/;"	m	struct:ieee80211_radiotap_iterator
+it_len	radiotap.h	/^	uint16_t it_len;$/;"	m	struct:ieee80211_radiotap_header
+it_pad	radiotap.h	/^	uint8_t it_pad;$/;"	m	struct:ieee80211_radiotap_header
+it_present	radiotap.h	/^	uint32_t it_present;$/;"	m	struct:ieee80211_radiotap_header
+it_version	radiotap.h	/^	uint8_t it_version;$/;"	m	struct:ieee80211_radiotap_header
+le16_to_cpu	platform.h	5;"	d
+le32_to_cpu	platform.h	6;"	d
+main	wicap.c	/^int main(int argc, char *argv[])$/;"	f
+n_bits	radiotap_iter.h	/^	int n_bits;$/;"	m	struct:ieee80211_radiotap_namespace
+n_ns	radiotap_iter.h	/^	int n_ns;$/;"	m	struct:ieee80211_radiotap_vendor_namespaces
+n_overrides	radiotap_iter.h	/^	int n_overrides;				\/* Only for RADIOTAP_SUPPORT_OVERRIDES *\/$/;"	m	struct:ieee80211_radiotap_iterator
+ns	radiotap_iter.h	/^	const struct ieee80211_radiotap_namespace *ns;$/;"	m	struct:ieee80211_radiotap_vendor_namespaces	typeref:struct:ieee80211_radiotap_vendor_namespaces::ieee80211_radiotap_namespace
+oui	radiotap_iter.h	/^	uint32_t oui;$/;"	m	struct:ieee80211_radiotap_namespace
+overrides	radiotap_iter.h	/^	const struct radiotap_override *overrides;	\/* Only for RADIOTAP_SUPPORT_OVERRIDES *\/$/;"	m	struct:ieee80211_radiotap_iterator	typeref:struct:ieee80211_radiotap_iterator::radiotap_override
+overrides	wicap.c	/^static const struct radiotap_override overrides[] = {$/;"	v	typeref:struct:radiotap_override	file:
+print_radiotap_namespace	wicap.c	/^static void print_radiotap_namespace(struct ieee80211_radiotap_iterator *iter)$/;"	f	file:
+print_test_namespace	wicap.c	/^static void print_test_namespace(struct ieee80211_radiotap_iterator *iter)$/;"	f	file:
+radiotap_align_size	radiotap_iter.h	/^struct radiotap_align_size {$/;"	s
+radiotap_ns	radiotap.c	/^static const struct ieee80211_radiotap_namespace radiotap_ns = {$/;"	v	typeref:struct:ieee80211_radiotap_namespace	file:
+radiotap_override	radiotap_iter.h	/^struct radiotap_override {$/;"	s
+rtap_namespace_sizes	radiotap.c	/^static const struct radiotap_align_size rtap_namespace_sizes[] = {$/;"	v	typeref:struct:radiotap_align_size	file:
+save_packet	wicap.c	/^int save_packet(const pcap_t *pcap_handle, const struct pcap_pkthdr *header, $/;"	f
+size	radiotap_iter.h	/^	uint8_t align:4, size:4;$/;"	m	struct:radiotap_align_size
+size	radiotap_iter.h	/^	uint8_t align:4, size:4;$/;"	m	struct:radiotap_override
+subns	radiotap_iter.h	/^	uint8_t subns;$/;"	m	struct:ieee80211_radiotap_namespace
+this_arg	radiotap_iter.h	/^	unsigned char *this_arg;$/;"	m	struct:ieee80211_radiotap_iterator
+this_arg_index	radiotap_iter.h	/^	int this_arg_index;$/;"	m	struct:ieee80211_radiotap_iterator
+this_arg_size	radiotap_iter.h	/^	int this_arg_size;$/;"	m	struct:ieee80211_radiotap_iterator
+vns	wicap.c	/^static const struct ieee80211_radiotap_vendor_namespaces vns = {$/;"	v	typeref:struct:ieee80211_radiotap_vendor_namespaces	file:
+vns_array	wicap.c	/^static const struct ieee80211_radiotap_namespace vns_array[] = {$/;"	v	typeref:struct:ieee80211_radiotap_namespace	file:
